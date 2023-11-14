@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <header class="header">
@@ -14,13 +18,13 @@
       <nav class="header-navigation">
         <ul class="header-list">
           <li class="header-item">
-            <a href="">About</a>
+            <a class="header-link" href="">About</a>
           </li>
           <li class="header-item">
-            <a href="">Yahts</a>
+            <a class="header-link" href="">Yahts</a>
           </li>
           <li class="header-item">
-            <a href="">Reviews</a>
+            <a class="header-link" href="">Reviews</a>
           </li>
         </ul>
       </nav>
@@ -76,7 +80,7 @@
             state-of-the-art amenities.
           </p>
           <button class="hero-start" type="button">Get Started</button>
-          <button class="" type="button">Explore</button>
+          <button class="hero-button" type="button">Explore</button>
         </div>
       </section>
       <!-- info section -->
@@ -136,8 +140,8 @@
       </section>
       <!-- price section -->
       <section class="price-section">
-        <ul>
-          <li>
+        <ul class="price-articles">
+          <li class="price-element">
             <article class="price-article">
               <img
                 class="price-pfoto"
@@ -170,7 +174,7 @@
               </ul>
             </article>
           </li>
-          <li>
+          <li class="price-element">
             <article class="price-article">
               <img
                 class="price-pfoto"
@@ -203,7 +207,7 @@
               </ul>
             </article>
           </li>
-          <li>
+          <li class="price-element">
             <article class="price-article">
               <img
                 class="price-pfoto"
@@ -276,11 +280,11 @@
           src="./images/contact-yacht.png"
           alt="contact-yacht"
         />
-        <form>
-          <input placeholder="Full Name" type="text" />
-          <input placeholder="Email" type="text" />
-          <input placeholder="Phone number" type="text" />
-          <textarea
+        <form class="contact-form">
+          <input class="contact-name" placeholder="Full Name" type="text" />
+          <input class="contact-email" placeholder="Email" type="text" />
+          <input class="contact-tel" placeholder="Phone number" type="text" />
+          <textarea class="contact-coment"
             placeholder="Comment"
             name=""
             id=""
@@ -292,8 +296,8 @@
       </section>
       <!-- reviews section -->
       <section class="reviews-section">
-        <p class="reviews-text"></p>
-        <p class="reviews-text"></p>
+        <p class="reviews-info">Yaht Adventures take pride in providing the best possible service and experience to our customers</p>
+        <p class="reviews-description">Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on to find out what they have to say about their journey with us.</p>
         <article class="reviews-article">
           <img
             class="reviews-pfoto"
@@ -321,7 +325,7 @@
           </p>
         </article>
         <article class="reviews-article">
-          <img class="reviews-pfoto" src="./images/" alt="rewius-client3" />
+          <img class="reviews-pfoto" src="./images/hero-client3.png" alt="rewius-client3" />
           <h2 class="reviews-title">Ihor Trachuk</h2>
           <p class="reviews-text">
             The Azimut 80 was the most luxurious yacht I've ever been on. The

@@ -1,0 +1,262 @@
+:root {
+    --page-bagraund: #11131F;
+    --text-color:#F6F5EF;
+    --actzent-color:#93ABAE;
+}
+body{
+    background-color: var(--page-bagraund);
+    font-family: DM Sans; 
+}
+
+.header-text{
+    color: var(--text-color);
+
+font-size: 18px;
+
+font-weight: 700;
+line-height: 118%; /* 21.24px */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.header-link{
+    color:var(--text-color);
+
+font-size: 14px;
+
+font-weight: 700;
+line-height: 118%; /* 16.52px */
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.hero-price{
+    color:var(--page-bagraund);
+
+font-size: 60px;
+
+font-weight: 400;
+line-height: 110%; /* 66px */
+letter-spacing: -2.7px;
+text-transform: uppercase;
+}
+.hero-text{
+    color:var(--page-bagraund);
+
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 110%; /* 19.8px */
+letter-spacing: -0.81px;
+}
+.hero-info{
+    color:var(--text-color);
+/* h1 */
+
+font-size: 60px;
+
+font-weight: 500;
+line-height: 110%; /* 66px */
+letter-spacing: -2.7px;
+}
+.hero-description{
+    color:var(--text-color);
+/* main text */
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+letter-spacing: -0.32px;
+}
+.hero-start{
+    
+
+font-size: 18px;
+
+font-weight: 700;
+line-height: 110%; /* 19.8px */
+letter-spacing: -0.81px;
+}
+.hero-button{
+    color:var(--text-color);
+
+font-size: 18px;
+
+font-weight: 700;
+line-height: 110%; /* 19.8px */
+letter-spacing: -0.81px;
+}
+.info-subtext{
+    color:var(--text-color);
+/* main text */
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+letter-spacing: -0.32px;
+}
+.galllery-title{
+    color:var(--text-color);
+/* h2 */
+
+font-size: 100px;
+
+font-weight: 500;
+line-height: 110%; /* 110px */
+letter-spacing: -4.5px;
+}
+.gallery-button{
+    color:var(--text-color);
+    /* button_text */
+
+    font-size: 18px;
+ 
+    font-weight: 700;
+    line-height: 110%; /* 19.8px */
+    letter-spacing: -0.81px;
+}
+.price-title{
+    color:var(--text-color);
+
+font-size: 16px;
+
+font-weight: 700;
+line-height: 120%; /* 19.2px */
+letter-spacing: -0.72px;
+text-transform: uppercase;
+}
+.price-text{
+    color:var(--actzent-color);
+
+font-size: 12px;
+
+font-weight: 400;
+line-height: 118%; /* 14.16px */
+letter-spacing: 0.36px;
+text-transform: uppercase;
+}
+.price-name{
+    color:var(--text-color);
+
+    font-size: 14px;
+
+    font-weight: 400;
+    line-height: 118%; /* 16.52px */
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.price-number{
+    color:var(--text-color);
+
+font-size: 14px;
+
+font-weight: 400;
+line-height: 118%; /* 16.52px */
+letter-spacing: 0.42px;
+}
+.button-services{
+    color:var(--text-color);
+
+font-size: 18px;
+
+font-weight: 700;
+line-height: 110%; /* 19.8px */
+letter-spacing: -0.81px;
+}
+.contact-title{
+    color:var(--text-color);
+
+font-size: 60px;
+
+font-weight: 500;
+line-height: 110%; /* 66px */
+letter-spacing: -2.7px;
+}
+.contact-name::placeholder{
+    color:var(--text-color);
+
+font-size: 16px;
+
+font-weight: 500;
+line-height: 120%; /* 19.2px */
+letter-spacing: -0.72px;
+}
+.contact-button{
+    color:var(--text-color);
+
+font-size: 18px;
+
+font-weight: 700;
+line-height: 110%; /* 19.8px */
+letter-spacing: -0.81px;
+}
+.reviews-info{
+    
+font-size: 32px;
+
+font-weight: 500;
+line-height: 120%; /* 38.4px */
+letter-spacing: -1.44px;
+}
+.reviews-description{
+    color:var(--text-color);
+/* main text */
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+letter-spacing: -0.32px;
+}
+.reviews-title{
+    color:var(--text-color);
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 500;
+line-height: 110%; /* 19.8px */
+letter-spacing: -0.81px;
+}
+.reviews-text{
+    color:var(--actzent-color);
+
+text-align: center;
+/* main text */
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+letter-spacing: -0.32px;
+}
+.foooter-title{
+    color:var(--text-color);
+
+font-size: 18px;
+
+font-weight: 700;
+line-height: 118%; /* 21.24px */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.footer-link{
+    color:var(--text-color);
+
+font-size: 14px;
+
+font-weight: 700;
+line-height: 118%; /* 16.52px */
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.footer-text{
+    color:var(--text-color);
+
+font-size: 14px;
+
+font-weight: 700;
+line-height: 110%; /* 15.4px */
+text-transform: uppercase;
+}
