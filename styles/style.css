@@ -11,6 +11,13 @@ body {
   line-height:110%;
   font-weight: 400;
 }
+.container{
+width: 1280px; 
+outline: solid cornflowerblue;
+ padding-left: 16px;
+ padding-right: 16px;
+margin: 0 auto;
+}
 
 .header-text {
   font-weight: 700;
