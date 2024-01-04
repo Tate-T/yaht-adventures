@@ -212,6 +212,7 @@ border: 1px solid var(--white, #F6F5EF);
 }
 .price-element{
   outline: solid green;
+  height: 508px;
 }
 .price-articles {
   display: flex;
@@ -226,6 +227,8 @@ border: 1px solid var(--white, #F6F5EF);
   line-height: 120%;
   letter-spacing: -0.72px;
   text-transform: uppercase;
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
 .price-text {
   color: var(--actzent-color);
@@ -233,6 +236,9 @@ border: 1px solid var(--white, #F6F5EF);
   line-height: 118%;
   letter-spacing: 0.36px;
   text-transform: uppercase;
+}
+.price-list{
+  column-count: 2;
 }
 .price-name {
   font-size: 14px;
