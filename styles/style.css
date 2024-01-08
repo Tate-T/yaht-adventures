@@ -206,7 +206,7 @@ body {
   border-radius: 60px;
   border: 1px solid var(--white, #f6f5ef);
 }
-.price-section{
+.price-section {
   padding-top: 164px;
 }
 .price-element {
@@ -264,7 +264,7 @@ body {
   letter-spacing: 0.42px;
   gap: 6px;
 }
-.services-section{
+.services-section {
   padding-bottom: 164px;
   padding-top: 164px;
 }
@@ -282,12 +282,12 @@ body {
   font-weight: 700;
   letter-spacing: -0.81px;
   position: absolute;
- left: 32px;
- bottom: 32px;
- border-radius: 60px;
-background: var(--white, #F6F5EF);
-padding: 14px 28px;
-border: none;
+  left: 32px;
+  bottom: 32px;
+  border-radius: 60px;
+  background: var(--white, #f6f5ef);
+  padding: 14px 28px;
+  border: none;
 }
 .contact-title {
   font-size: 60px;
@@ -303,6 +303,14 @@ border: none;
 .contact-button {
   font-weight: 700;
   letter-spacing: -0.81px;
+}
+.reviews-section{
+padding-top: 164px;
+padding-bottom: 164px;
+}
+.reviews-sublist {
+  display: flex;
+  gap: 446px;
 }
 .reviews-info {
   font-size: 32px;
@@ -323,6 +331,16 @@ border: none;
   text-align: center;
   font-weight: 500;
   letter-spacing: -0.81px;
+  margin-top: 24px;
+}
+.reviews-article {
+  background: #1f212d;
+  border-radius: 24px;
+  justify-content: center;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
 }
 .reviews-text {
   color: var(--actzent-color);
@@ -330,9 +348,20 @@ border: none;
   font-size: 16px;
   line-height: 140%;
   letter-spacing: -0.32px;
+  margin-top: 8px;
 }
 .reviews-list {
   display: flex;
+  border-radius: 24px;
+  gap: 32px;
+  margin-top: 64px;
+}
+.reviews-pfoto{
+  width: 56px;
+height: 56px;
+margin-left: auto;
+margin-right: auto;
+display: block;
 }
 .foooter-title {
   font-weight: 700;
