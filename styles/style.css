@@ -29,7 +29,7 @@ body {
   padding-bottom: 33px;
 }
 
-.header-logo {
+.logo {
   color: var(--white, #f6f5ef);
   font-family: DM Sans;
   font-size: 18px;
@@ -44,7 +44,7 @@ body {
   align-items: center;
 }
 
-.header-text {
+.logo-text {
   font-weight: 700;
   line-height: 118%;
   letter-spacing: 0.54px;
@@ -362,6 +362,9 @@ height: 56px;
 margin-left: auto;
 margin-right: auto;
 display: block;
+}
+.footer-box{
+display: flex;  
 }
 .foooter-title {
   font-weight: 700;
