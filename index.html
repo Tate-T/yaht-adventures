@@ -310,17 +310,30 @@
       </section>
       <!-- contact section -->
       <section class="contact-section">
-        <div class="container">
-          <h2 class="contact-title">Rent a yaht now</h2>
-          <img
-            class="contact-pfoto"
-            src="./images/contact-yacht.png"
-            alt="contact-yacht"
-          />
+        <div class="container contact-container">
+          <div class="contact-box">
+            <h2 class="contact-title">Rent a yaht now</h2>
+            <img
+              class="contact-pfoto"
+              src="./images/contact-yacht.png"
+              alt="contact-yacht"
+            />
+          </div>
           <form class="contact-form">
-            <input class="contact-name" placeholder="Full Name" type="text" />
-            <input class="contact-email" placeholder="Email" type="text" />
-            <input class="contact-tel" placeholder="Phone number" type="text" />
+            <ul class="contact-list">
+              <li class="contact-item">
+                 <input class="contact-name" placeholder="Full Name" type="text" />
+                </li>
+              <li class="contact-item">
+                <input class="contact-email" placeholder="Email" type="text" />
+              </li>
+              <li class="contact-item">
+                <input class="contact-tel" placeholder="Phone number" type="text" />
+              </li>
+            </ul>
+           
+
+
             <textarea
               class="contact-coment"
               placeholder="Comment"
@@ -404,7 +417,7 @@
     </main>
     <footer class="foooter-section">
       <div class="container">
-        <div class=" footer-box">
+        <div class="footer-box">
           <a class="logo" href="">
             <img class="logo-foto" src="./images/logo.png" alt="logo" />
             <p class="logo-text">yaht Adventures</p>
@@ -464,12 +477,15 @@
                 </svg>
               </li>
               <li class="footer-subitem">
-               <img src="./images/footer-logo3.png" alt="youtube">
+                <img src="./images/footer-logo3.png" alt="youtube" />
               </li>
             </ul>
           </div>
         </div>
-        <p class="footer-subtext">2023. Yaht Adventures <span class="footer-privacy"> Privacy Police</span></p>
+        <p class="footer-subtext">
+          2023. Yaht Adventures
+          <span class="footer-privacy"> Privacy Police</span>
+        </p>
       </div>
     </footer>
   </body>
