@@ -322,10 +322,25 @@ body {
   background-color: transparent;
   border: none;
   border-bottom: solid var(--text-color);
+  margin-bottom:16px;
 }
 .contact-button {
   font-weight: 700;
   letter-spacing: -0.81px;
+  border-radius: 60px;
+border: 1px solid var(--white, #F6F5EF);
+display: flex;
+padding: 14px 28px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+margin-top: 64px;
+}
+.contact-item{
+  margin-bottom:28px;
+}
+.contact-coment{
+  background-color: transparent;
 }
 .reviews-section{
 padding-top: 164px;
