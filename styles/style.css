@@ -13,6 +13,7 @@ body {
 }
 .container {
   width: 1280px;
+
   outline: solid cornflowerblue;
   padding-left: 16px;
   padding-right: 16px;
@@ -216,11 +217,13 @@ body {
   padding-right: 16px;
   padding-bottom: 32px;
   border-radius: 24px;
+  width: calc((100% - 16px * 2) / 3 );
 }
 .price-articles {
   display: flex;
   gap: 16px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .price-info {
   display: flex;
