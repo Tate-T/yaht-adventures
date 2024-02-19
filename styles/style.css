@@ -307,7 +307,7 @@ body {
   margin-bottom: 64px;
 }
 .contact-form{
-  outline: solid green;
+  width: 443px;
 }
 .contact-list{
   display: flex;
@@ -326,10 +326,14 @@ body {
   border: none;
   border-bottom: solid var(--text-color);
   margin-bottom:16px;
+  width: 100%;
 }
 .contact-button {
   font-weight: 700;
-  letter-spacing: -0.81px;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  color: var(--text-color);
   border-radius: 60px;
 border: 1px solid var(--white, #F6F5EF);
 display: flex;
@@ -338,12 +342,17 @@ justify-content: center;
 align-items: center;
 gap: 16px;
 margin-top: 64px;
+background-color: transparent;
 }
 .contact-item{
   margin-bottom:28px;
 }
 .contact-coment{
   background-color: transparent;
+  width: 100%;
+  border: none;
+  border-bottom: solid var(--text-color);
+  resize: none;
 }
 .reviews-section{
 padding-top: 164px;
