@@ -44,7 +44,10 @@ body {
   gap: 8px;
   align-items: center;
 }
-
+.logo-foto{
+  height:23px ;
+  width:23px ;
+}
 .logo-text {
   font-weight: 700;
   line-height: 118%;
@@ -73,13 +76,17 @@ body {
   gap: 124px;
   justify-content: space-between;
 }
+.hero{
+padding-bottom: 173px;
+padding-top: 64px;
+}
 .hero-article {
   background-image: url(../images/hero-article-bagrund.png);
   background-repeat: no-repeat;
-  padding-top: 96px;
   padding-bottom: 64px;
   background-size: contain;
   /* padding-left: 50px; */
+  max-width: 426px;
 }
 .hero-list {
   display: flex;
