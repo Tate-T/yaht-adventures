@@ -87,6 +87,10 @@ padding-top: 64px;
   background-size: contain;
   /* padding-left: 50px; */
   max-width: 426px;
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-right: 30px ;
+  outline: solid red;
 }
 .hero-list {
   display: flex;
@@ -110,6 +114,9 @@ padding-top: 64px;
   margin-left: auto;
   margin-right: auto;
 }
+ .hero-yacht{
+  width: 100%;
+ }
 .hero-price {
   color: var(--page-bagraund);
   font-size: 60px;
