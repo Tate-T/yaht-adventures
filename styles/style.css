@@ -68,6 +68,9 @@ body {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
+.hero{
+  background-image: radial-gradient();
+}
 .hero .container {
   padding-left: 50px;
 }
@@ -116,6 +119,7 @@ padding-top: 64px;
 }
  .hero-yacht{
   width: 100%;
+  margin-top:111px ;
  }
 .hero-price {
   color: var(--page-bagraund);
@@ -204,6 +208,16 @@ padding-top: 64px;
   letter-spacing: -4.5px;
   line-height: 110%;
   margin-bottom: 64px;
+}
+.gallery-item:first-child .gallery-photo{
+  max-width:533px ;
+
+}
+.gallery-item:nth-child(2) .gallery-photo{
+  max-width:308px ;
+}
+.gallery-item:nth-child(3) .gallery-photo{
+  max-width:260px ;
 }
 .gallery-button {
   font-weight: 700;
@@ -420,7 +434,7 @@ padding-bottom: 164px;
   gap: 32px;
   margin-top: 64px;
 }
-.reviews-pfoto{
+.reviews-photo{
   width: 56px;
 height: 56px;
 margin-left: auto;
