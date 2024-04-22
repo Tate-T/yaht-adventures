@@ -173,7 +173,6 @@ padding-top: 64px;
 }
 .info-list {
   display: flex;
-  padding-top: 164px;
   padding-bottom: 64px;
   gap: 32px;
 }
@@ -197,6 +196,16 @@ padding-top: 64px;
   letter-spacing: -0.32px;
   width: 182px;
 }
+.gallery-list{
+  display: flex;
+  flex-direction: column;
+  max-height: 749px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:32px ;
+
+}
 .gallery-box {
   width: 882px;
   margin-right: auto;
@@ -209,13 +218,15 @@ padding-top: 64px;
   line-height: 110%;
   margin-bottom: 64px;
 }
+ .gallery-item{
+  outline: solid red;
+ }
 .gallery-item:first-child .gallery-photo{
-  max-width:533px ;
-
-}
-.gallery-item:nth-child(2) .gallery-photo{
   max-width:308px ;
 }
+.gallery-item:nth-child(2) .gallery-photo{
+  max-width:533px ;
+  }
 .gallery-item:nth-child(3) .gallery-photo{
   max-width:260px ;
 }
@@ -323,9 +334,11 @@ padding-top: 64px;
 .contact-container{
   display: flex;
   gap: 188px; 
+  justify-content: center;
 }
 .contact-box{
-  outline: solid red;
+max-width: 282px;
+
 }
 .contact-title {
   font-size: 60px;
@@ -333,6 +346,9 @@ padding-top: 64px;
   letter-spacing: -2.7px;
   line-height: 110%;
   margin-bottom: 64px;
+}
+.contact-span{
+  display: block;
 }
 .contact-form{
   width: 443px;
@@ -353,8 +369,9 @@ padding-top: 64px;
   background-color: transparent;
   border: none;
   border-bottom: solid var(--text-color);
-  margin-bottom:16px;
   width: 100%;
+  padding-bottom: 16px;
+  color: var(--text-color);
 }
 .contact-button {
   font-weight: 700;
@@ -373,14 +390,17 @@ margin-top: 64px;
 background-color: transparent;
 }
 .contact-item{
-  margin-bottom:28px;
 }
 .contact-coment{
   background-color: transparent;
   width: 100%;
+  margin-top:28px ;
+  /* padding-bottom: 58px; */
+  height: 78px;
   border: none;
   border-bottom: solid var(--text-color);
   resize: none;
+color: var(--text-color);
 }
 .reviews-section{
 padding-top: 164px;
