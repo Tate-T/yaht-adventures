@@ -479,6 +479,12 @@ gap: 24px;
   gap: 16px;
   margin-top: 16px;
 }
+.footer-icon{
+  width: 40px;
+  height: 40px;
+  fill: transparent;
+  stroke: #F6F5EF;
+}
 .footer-sites{
 }
 .footer-link {
