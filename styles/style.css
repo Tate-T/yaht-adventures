@@ -479,11 +479,17 @@ gap: 24px;
   gap: 16px;
   margin-top: 16px;
 }
+.footer-sosial:hover .footer-icon{
+stroke: #BEC7C2;
+}
 .footer-icon{
   width: 40px;
   height: 40px;
   fill: transparent;
   stroke: #F6F5EF;
+}
+.footer-icon:hover{
+
 }
 .footer-sites{
 }
