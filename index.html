@@ -329,6 +329,7 @@
             <ul class="contact-list">
               <li class="contact-item">
                 <input
+               required
                   class="contact-name"
                   placeholder="Full Name"
                   type="text"
@@ -339,6 +340,7 @@
               </li>
               <li class="contact-item">
                 <input
+                required
                   class="contact-tel"
                   placeholder="Phone number"
                   type="text"
@@ -351,7 +353,7 @@
               cols="30"
               rows="10"
             ></textarea>
-            <button type="submit" class="contact-button">
+            <button data-modal-open type="button" class="contact-button">
               Send
               <svg
                 width="18"
@@ -487,10 +489,10 @@
         </p>
       </div>
     </footer>
-    <div class="backdrop">
+    <div data-modal  class="backdrop is-hidden">
       <div class="modal">
         <article class="modal-article">
-          <button class="modal-button">
+          <button data-modal-close class="modal-button">
             <svg class="modal-icon">
               <use href="./images/symbol-defs.svg#icon-close" ></use>
             </svg>
@@ -501,5 +503,6 @@
         </article>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
