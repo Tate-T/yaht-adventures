@@ -540,12 +540,25 @@ body {
   padding-left: 64px;
   padding-right: 64px;
 }
-.modal-article {
-}
 .modal-button{
+  background-color: transparent;
+  width: 60px;
+height: 60px;
+border: none;
+position:absolute;
+top:32px;
+right: 32px;
+}
+.modal-icon{
+stroke: white;
 width: 24px;
 height: 24px;
+
 }
+.modal-article {
+
+}
+
 .modal-pfoto {
   width: 338px;
   height: 198px;
