@@ -457,11 +457,14 @@ body {
   margin-right: auto;
   display: block;
 }
+.footer-section{
+    padding-bottom: 16px;
+}
 .footer-box {
   display: flex;
   align-items: center;
 }
-.foooter-title {
+.footer-title {
   font-weight: 700;
   line-height: 118%;
   letter-spacing: 0.54px;
@@ -516,6 +519,7 @@ body {
   line-height: 118%; /* 16.52px */
   letter-spacing: 0.42px;
   margin-top: 132px;
+
 }
 .footer-privacy {
   margin-left: 32px;
